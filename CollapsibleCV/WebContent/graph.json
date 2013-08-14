@@ -1,0 +1,35 @@
+{
+ "name": "ME",
+ "children": [
+  {
+   "name": "Personal Information",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 10000},
+      {"name": "CommunityStructure", "size": 10000},
+      {"name": "HierarchicalCluster", "size": 10000},
+      {"name": "MergeEdge", "size": 10000}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 10000},
+      {"name": "LinkDistance", "size": 10000},
+      {"name": "MaxFlowMinCut", "size": 10000},
+      {"name": "ShortestPaths", "size": 10000},
+      {"name": "SpanningTree", "size": 10000}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 10000}
+     ]
+    }
+   ]
+  }
+ ]
+}
